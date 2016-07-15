@@ -1,0 +1,833 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #8B8B8B;
+    background-color: #FFF;
+    font-size: 12px
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.dingbu-wp {
+    width: 100%;
+    height: 30px;
+    background-color: #2f2f2f;
+}
+
+.dingbu-bar li {float: left;font-size: 12px;}
+
+.dingbu-bar li a {
+    color: #b5b5b5;
+    border-right: 1px solid #3d3d3d;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.dingbu-bar {
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dingbu-bar ul {
+    position: absolute;
+    right: 0;
+}
+
+.dingbu-bar p {
+    color: #717171;
+}
+
+.dingbu-bar img {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.yinyue {
+    width: 960px;
+    height: 112px;
+    margin: 0 auto;
+}
+
+ul.yinyue-a li {
+    float: left;
+    height: 80px;
+}
+
+ul.yinyue-b li {
+    float: left;
+    margin-top: 10px;
+}
+
+.yinyue-top img {
+    \: left;
+    float: left;
+    margin-left: -112px;
+}
+
+ul.yinyue-a {
+    overflow: hidden;
+    position: relative;
+    left: 55px;
+}
+
+ul.yinyue-a li a {
+    float: left;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'microsoft yahei';
+    color: #5B5B5B;
+    font-weight: bolder;
+    padding: 0 20px;}
+
+ul.yinyue-b {
+}
+
+ul.yinyue-b a {
+    font-size: 14px;
+    color: #6E6E6E;
+    font-family:  Arial,Tahoma,"hiragino sans gb",Helvetica;
+    padding: 0 20px;
+    border-right: 1px solid #C8C5CF;
+}
+
+li.bd-none a {
+    border: none;
+}
+
+.yy-border {
+    height: 113px;
+    border-bottom: 1px solid #DDD;
+}
+
+ul.yinyue-b {
+    position: relative;
+    left: 55px;
+}
+
+.dingbu-bar li a:hover {
+    color: #0DAD51;
+}
+
+.yinyue-a li.on {
+    background-color: #0DAD51;
+}
+
+.yinyue-a li.on a {
+    color: #fff;
+}
+
+.yinyue-b li.on a {
+    color: #0DAD51;
+    font-weight: bold;
+}
+
+.dtp-wp {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.dtp-left {
+    width: 700px;
+    float: left;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 700px;
+    height: 280px;
+}
+
+.zaixian-wp {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+span.zaixian-b {
+    width: 111px;
+    height: 25px;
+    float: left;
+    background-image: url(../img/zaixian.png);
+    margin-left: 10px;
+}
+
+.zaixian-a {
+    height: 26px;
+    border-left: solid 5px #f00;
+    padding: 2px 0;
+}
+
+.zaixian-a a {
+    color: #0DAD51;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+i.zaixian-d {
+    background-image: url(../img/sanjiao.png);
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-position: 0px -128px;
+}
+
+i.zaixian-e {
+    background-image: url(../img/sanjiao.png);
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-position: -32px -96px;
+}
+
+span.zaixian-c i.zaixian-d:hover {
+    background-image: url(../img/sanjiao.png);
+    background-position: -64px -128px;
+}
+
+.zaixian-wp li {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: 0 12px 10px 0;
+    position: relative;
+}
+
+.sf-wp {
+    width: 710px;
+    height: 270px;
+    float: left;
+    overflow: hidden;
+}
+
+.sf-wp a {
+    width: 130px;
+    height: 130px;
+}
+
+a.sf-a img {
+    width: 130px;
+    height: 130px;
+}
+
+a.sf-a .sf-lv {
+    font-size: 14px;
+    color: #0cc65b;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+a.sf-a .sf-bai {
+    color: #fff;
+    margin-left: 10px;
+}
+
+a.sf-a span {
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    margin-top: -53px;
+}
+
+.sf-tm {
+    background-color: #000;
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -1px;
+}
+
+span.sf-b p {
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+.sb-wp {
+    width: 700px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.sb-a a {
+    float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+    color: #0DAD51;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+
+.sb-a {
+    height: 30px;
+    width: 700px;
+    border-left: solid 5px #ff7800;
+}
+
+ul.mv-a li {
+    width: 160px;
+    height: 184px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+
+.mv-wp {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+ul.mv-a {
+    float: left;
+    width: 720px;
+}
+
+li.mv-b img {
+    width: 160px;
+    height: 90px;
+}
+
+li.mv-b p {
+    height: 20px;
+    line-height: 20px;
+}
+
+p.mv-c a {
+    color: #0c8f44;
+}
+
+p.mv-e {
+    float: right;
+    color: #A3A3A3;
+    font-family: 'Microsoft YaHei';
+}
+
+.zuixin-left {
+    float: left;
+    width: 333px;
+    padding: 0 17px 0 0;
+    border-right: solid 1px #e5e5e5;
+    overflow: hidden;
+}
+
+.zuixin-right {
+    float: left;
+}
+
+span.zuixin-left-b {
+    width: 111px;
+    height: 27px;
+    background-image: url(../img/zaixian.png);
+    background-position: 0px 27px;
+}
+
+.zuixin-left-e span {
+    float: left;
+    margin-left: 10px;
+}
+
+.zuixin-leift-a {
+    height: 26px;
+    border-left: solid 5px #0dad51;
+    padding: 2px 0;
+}
+
+.zuixin-left-f {
+    float: right;
+    height: 26px;
+    line-height: 26px;
+}
+
+span.zuixin-left-c {
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/sanjiao.png);
+    background-position: 0px -64px;
+}
+
+span.zuixin-left-c:hover {
+    background-image: url(../img/sanjiao.png);
+    background-position: -30px -64px;
+}
+
+span.zuixin-left-d {
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/sanjiao.png);
+    background-position: -56px -285px;
+}
+
+span.zuixin-left-d:hover {
+    background-image: url(../img/sanjiao.png);
+    background-position: -88px -285px;
+}
+
+.zuixin-left-a .zuixin-left-f .zuixin-first {
+    color: #05B600;
+}
+
+a.zuixin-tow {
+    color: #0c8f44;
+}
+
+.zuixin-left-f a:hover {
+    color: #05B600;
+}
+
+a.zuixin-first {
+    color: #333;
+    font-weight: bold;
+}
+
+.gq-left li {
+    width: 333px;
+    height: 23px;
+    line-height: 24px;
+    margin: 0 0 6px;
+    padding: 0 0 6px;
+    border-bottom: 1px dotted #fff;
+}
+
+.gq-left {
+    float: left;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+span.gq-left-a a {
+    color: #0c8f44;
+    font-size: 14px;
+}
+
+span.gq-left-b a {
+    color: #515151;
+    font-size: 14px;
+}
+
+.gq-left li:hover {
+    border-bottom: 1px dotted #E2E2E2;
+}
+
+.zuixin-right-a {
+}
+
+.gq-right-e {
+    float: left;
+    margin-top: 20px;
+    overflow: hidden;
+    float: left;
+    padding: 0 17px 0 0;
+}
+
+.zuixin-right .zuixin-right-q {
+    margin-left: 10px;
+}
+
+.jx-top span {
+    width: 111px;
+    height: 26px;
+    float: left;
+    background-image: url(../img/zaixian.png);
+    margin-left: 10px;
+    background-position: 0px -78px;
+}
+
+
+.jx-top {
+    height: 26px;
+    padding: 2px 0;
+    overflow: hidden;
+    margin: 0 0 18px;
+    border-left: solid 5px #f3508d;
+}
+
+.zuixin-wp {
+    overflow: hidden;
+}
+
+.jx-wp {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.jx-left {
+    float: left;
+    width: 270px;
+    height: 336px;
+    margin-right: 15px;
+}
+
+.jx-left a {
+    float: left;
+    width: 270px;
+    font-size: 14px;
+    color: #0c8f44;
+    margin: 4px 0 8px;
+    font-family: 'Microsoft YaHei';
+}
+
+.jx-left a:hover {
+    color: #05B600;
+}
+
+.jx-right {
+    width: 415px;
+    float: left;
+}
+
+.jx-right li {
+    width: 130px;
+    height: 186px;
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+
+li.jx-right-a img {
+    width: 130px;
+    height: 130px;
+}
+
+li.jx-right-a a {
+    color: #0c8f44;
+}
+
+li.jx-right-a a:hover {
+    color: #05B600;
+}
+
+li.jx-right-a span {
+    margin-top: 4px;
+    display: block;
+}
+
+.kong {
+    height: 40px;
+}
+
+.bottom-wp {
+    width: 100%;
+    height: 268px;
+    background-color: #F7F7F7;
+    padding: 0 0 5px 0;
+}
+
+.bottom-a {
+    width: 920px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 35px 0 35px 60px;
+}
+
+.bottom-left span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #757575;
+    height: 30px;
+    float: left;
+}
+
+.bottom-left li {
+    height: 26px;
+}
+
+.bottom-left ul {
+    float: left;
+}
+
+.bottom-left {
+    width: 303px;
+    float: left;
+    margin-right: 53px;
+}
+
+.bottom-left li a {
+    color: #515151;
+    margin-right: 20px;
+    font-family: 'Microsoft YaHei';
+}
+
+.bottom-zhongjian {
+    float: left;
+    width: 94px;
+    height: 108px;
+    margin-right: 54px;
+}
+
+.bottom-zhongjian span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #757575;
+    height: 30px;
+    float: left;
+    width: 88px;
+}
+
+.bottom-zhongjian li {
+    height: 26px;
+    width: 108px;
+    float: left;
+}
+
+.bottom-zhongjian a {
+    color: #515151;
+    margin-right: 20px;
+    font-family: 'Microsoft YaHei';
+}
+
+.bottom-left {}
+
+.bottom-right-a {
+    float: left;
+    width: 416px;
+}
+
+.bottom-right-a a {
+    color: #515151;
+    margin-right: 20px;
+    font-family: 'Microsoft YaHei';
+}
+
+.bottom-right-a li {
+    height: 26px;
+    float: left;
+}
+
+.tx-wp {
+    width: 522px;
+    margin: 0 auto;
+}
+
+.copt {
+    width: 318px;
+    margin: 10px auto;
+}
+
+.banquan {
+    width: 243px;
+    margin: 0 auto;
+}
+
+.tx-wp a {
+    color: #515151;
+}
+
+.copt a {
+    color: #515151;
+}
+
+.banquan a {
+    color: #515151;
+}
+
+.dibiao {
+    margin-top: 10px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.dtp-right {
+    float: left;
+    width: 220px;
+}
+
+ui.xiaodian li {
+    float: left;
+    width: 7px;
+    height: 7px;
+    background-color: #e2e2e2;
+    list-style: none;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+ui.xiaodian {
+    margin: 0 auto;
+    float: left;
+    height: 15px;
+    margin-left: 93px;
+    margin-top: 3px;
+}
+
+.yonghu {
+    overflow: hidden;
+}
+
+.dibiao .xiaodian li.on {
+    background-color: #a0a0a0;
+}
+
+.dianfeng {
+    overflow: hidden;
+}
+
+span.df-a {
+    width: 62px;
+    height: 18px;
+    display: block;
+    background-image: url(../img/zaixian.png);
+    background-position: 0px -220px;
+    margin-top: 7px;
+}
+
+
+
+span.df-b {
+    display: block;
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/sanjiao.png);
+    background-position: 0px -64px;
+}
+
+.dianfeng span {
+    float: left;
+    margin-right: 10px;
+}
+
+span.df-c {
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/sanjiao.png);
+    background-position: -56px -285px;
+}
+
+span.df-b:hover {
+    background-image: url(../img/sanjiao.png);
+    background-position: -30px -64px;
+}
+
+span.df-c:hover {
+    background-image: url(../img/sanjiao.png);
+    background-position: -88px -285px;
+}
+
+.zhishu a {font-size: 12px;color: #0c8f44;}
+
+.zhishu a.zs-first {
+    color: #515151;
+    font-weight: bold;
+}
+
+.zhishu a:hover {
+    color: #05B600;
+}
+
+.ty-wp {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+ul.ty-a i {font-style: normal;color: #8B8B8B;float: left;width: 42px;}
+
+ul.ty-a li {
+    width: 220px;
+    height: 24px;
+    line-height: 24px;
+}
+
+ul.ty-a a {
+    color: #0c8f44;
+    width: 108px;
+    float: left;
+}
+
+
+
+ul.ty-a span {
+    float: left;
+    width: 70px;
+    height: 24px;
+    text-overflow: ellipsis;
+    text-align: right;
+    white-space: nowrap;
+}
+
+li.ty-b i {
+    color: #FF5400;
+    font-size: 22px;
+}
+
+li.ty-b a {
+    color: #FF5400;
+    font-size: 22px;
+}
+
+
+
+.ty-wp .ty-b {
+    width: 220px;
+    height: 51px;
+    float: left;
+}
+
+li.ty-b img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+li.ty-b a {
+    float: left;
+    height: 51px;
+    width: 50px;
+}
+
+li.ty-b {}
+
+.ty-wp .ty-b span.ty-d {
+    height: 30px;
+    float: left;
+    color: #FF5400;
+    font-size: 22px;
+    text-align: left;
+    white-space: nowrap;
+    width: 103px;
+    font-family: "Microsoft YaHei";
+}
+
+.ty-wp .ty-b span {
+    margin-left: 25px;
+}
+
+.mg-wp {
+    margin-top: 20px;
+    width: 240px;
+    height: 72px;
+    padding: 14px 0;
+    background-image: url(../img/dddd.png);
+    background-repeat: repeat-x;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.mg-wp li {
+    width: 60px;
+    height: 24px;
+    float: left;
+    margin: 0 20px 0 0;
+    overflow: hidden;
+}
+
+.mg-wp a {
+    color: #515151;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+.mg-wp a:hover {
+    color: #333;
+}
+
+ul.ty-a a:hover {
+    color: #05B600;
+}
